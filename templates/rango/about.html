@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+{% extends 'rango/base.html' %}
+{% load staticfiles %}
+{% block title_block %}
+    About
+{% endblock %}
+{% block body_block %}
+    <h1>About</h1>
+    <div>
+        <strong>{{ boldmessage }}</strong><br/><br/>
+    </div>
+    <div>
+        <img src="{{ MEDIA_URL }}cat.jpg"
+             alt="Picture of the cat"/>
+    </div>
+
+    <button class="" id="about-btn">
+        Click Me - I'm JavaScript on Speed
+    </button>
+    <p class="ouch">This is a example</p> <p>This is another example</p>
+
+    <div id="msg">Hello - I'm here for a JQuery Example too</div>
+
+{% endblock %}
