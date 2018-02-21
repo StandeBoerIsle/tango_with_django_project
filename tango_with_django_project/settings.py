@@ -15,7 +15,7 @@ SECRET_KEY = '^4_9t1re!p8^)^jow-3y*fjhk2o&e=0w_qu-mvgktj0jeg^y^k'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['http://standeboer.pythonanywhere.com']
+ALLOWED_HOSTS = ['http://tangowithdjango.pythonanywhere.com']
 
 # Application definition
 
